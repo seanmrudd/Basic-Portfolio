@@ -16,7 +16,7 @@ header {
     background-color: #ffffff;
     border-color: #cccccc;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    width: 100%;
+    width: auto;
 }
 
 h1 {
@@ -26,20 +26,14 @@ h1 {
     border: 20px;
     margin: 20px;
     margin-bottom: 0;
+    margin-left: 440px;
     float: left;
-    margin-left: 17%;
 }
 
 nav {
-    float: right;
+    float: left;
     padding: 20px;
     margin: auto;
-    margin-right: 17%;
-}
-
-main {
-    height: 800px;
-    margin-bottom: 20px;
 }
 
 h2 {
@@ -65,6 +59,7 @@ h3 {
     padding-top: 0;
     width: 960px;
     margin: auto;
+    margin-bottom: 20px;
 }
 
 .contact {
@@ -73,6 +68,7 @@ h3 {
     padding-top: 0;
     width: 960px;
     margin: auto;
+    margin-bottom: 20px;
 }
 
 .portfolio {
@@ -80,7 +76,9 @@ h3 {
     padding: 30px;
     padding-top: 0;
     width: 960px;
+    height: 900px;
     margin: auto;
+    margin-bottom: 20px;
 }
 
 input {
@@ -153,7 +151,13 @@ footer {
     border-top: solid 10px;
     border-color: #4aaaa5;
     margin-top: 0;
-    width: 960px;
+    width: 100%;
     margin: auto;
+    position: absolute;
+    bottom: 0;
+}
 
+#fix {
+    position: relative;
+    bottom: 0;
 }
