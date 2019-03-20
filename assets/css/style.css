@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     color: #777777;
     background-image: url("../images/gravel.png");
@@ -24,14 +28,12 @@ h1 {
     color: white;
     padding: 20px;
     border: 20px;
-    margin: 20px;
-    margin-bottom: 0;
-    margin-left: 440px;
+    margin: auto;
     float: left;
 }
 
 nav {
-    float: left;
+    float: right;
     padding: 20px;
     margin: auto;
 }
@@ -43,7 +45,7 @@ h2 {
 }
 
 h3 {
-    font-size: 12px;
+    font-size: 18px;
 }
 
 .myPic {
@@ -76,7 +78,7 @@ h3 {
     padding: 30px;
     padding-top: 0;
     width: 960px;
-    height: 900px;
+    height: 950px;
     margin: auto;
     margin-bottom: 20px;
 }
@@ -134,9 +136,9 @@ textarea {
     color: white;
     padding: 10px;
     position: relative;
-    width: 180px;
+    width: 200px;
     left: 0;
-    bottom: 60px;
+    bottom: 80px;
     text-align: center;
 }
 
